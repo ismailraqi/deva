@@ -1,0 +1,28 @@
+@import '../Global-Style/Variables.scss';
+.Card{
+    display: flex;
+    width: $CardWidth;
+    border-Radius:$BorderRadius;
+    box-shadow:$BoxShadow;
+    border:$Border; 
+    background-color:$BackgourndColor;   
+    position:$Position;
+    flex-direction: $FlexDirection;
+}
+.Card-title{
+    font-size:$TitleFontSize;
+    text-align:$TitleTextAlign;
+}
+.Card-img{
+    width: 100%;
+    vertical-align: middle;
+}
+.Card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.Card-text{
+    text-align: center;
+    // no idea
+}
